@@ -1,6 +1,4 @@
-/* =========================
-   GENERAL
-========================= */
+/* Main */
 
 * {
     box-sizing: border-box;
@@ -18,9 +16,7 @@ body {
 }
 
 
-/* =========================
-   HEADER
-========================= */
+/* Header */
 
 header {
     padding: 50px 40px 30px;
@@ -34,9 +30,7 @@ header h1 {
 }
 
 
-/* =========================
-   GALLERY
-========================= */
+/* Gallery */
 
 .gallery {
     display: grid;
@@ -48,9 +42,7 @@ header h1 {
 }
 
 
-/* =========================
-   CARDS
-========================= */
+/* Cards */
 
 .card {
     display: flex;
@@ -72,9 +64,7 @@ header h1 {
 }
 
 
-/* =========================
-   IMAGES
-========================= */
+/* Images */
 
 .card img {
     width: 100%;
@@ -94,9 +84,7 @@ header h1 {
 }
 
 
-/* =========================
-   CARD TEXT
-========================= */
+/* Card text */
 
 .card h2 {
     margin: 18px 20px 8px;
@@ -115,9 +103,7 @@ header h1 {
 }
 
 
-/* =========================
-   BIG FEATURED CARD
-========================= */
+/* First child */
 
 .card:first-child {
     grid-column: span 2;
@@ -128,9 +114,7 @@ header h1 {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+/* Footer */
 
 footer {
     padding: 30px;
@@ -143,9 +127,7 @@ footer {
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+/* Responsive Mobile design */
 
 @media (max-width: 700px) {
 
